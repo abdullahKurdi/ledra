@@ -3,7 +3,7 @@
     <!-- Navbar section  -->
     <section id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src="{{asset('ledra_app/public/images/logo.png')}}"  alt="logo"></a>
+            <a class="navbar-brand" href="#"><img src="{{asset('images/logo.png')}}"  alt="logo"></a>
 
                 <span class="subtitle news" style="color: white;">
 
@@ -63,12 +63,12 @@
                     <a href="#about">Read more</a>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="{{asset('ledra_app/public/images/logo.png')}}" alt="banner image" class="img-fluid">
+                    <img src="{{asset('images/logo.png')}}" alt="banner image" class="img-fluid">
                 </div>
             </div>
         </div>
     </section>
-    <img src="{{asset('ledra_app/public/images/headerWave.png')}}" alt="wave banner" class="img-botton">
+    <img src="{{asset('images/headerWave.png')}}" alt="wave banner" class="img-botton">
 
 
 
@@ -106,7 +106,7 @@
                 @foreach($services as $service)
                     <div class="col-md-4 mb-4">
                         <div class="card" style="width: 18rem;">
-                            <img src="{{asset('ledra_app/public/images/'.$service->img)}}" class="card-img-top" alt="teams">
+                            <img src="{{asset('images/'.$service->img)}}" class="card-img-top" alt="teams">
                             <div class="card-body">
                                 <p class="card-text">{{$service->description}}</p>
                             </div>
@@ -186,7 +186,7 @@
             <div class="brand-carousel section-padding owl-carousel">
                 @foreach($partners as $partner)
                     <div class="single-logo">
-                        <img src="{{asset('ledra_app/public/images/'.$partner->img)}}" alt="{{$partner->name}}">
+                        <img src="{{asset('images/'.$partner->img)}}" alt="{{$partner->name}}">
                     </div>
                 @endforeach
             </div>
@@ -199,35 +199,35 @@
     <!--        <p>FIND US ON SOCIAL MEDIA</p>-->
     <!--        <div class="social-icons">-->
     <!--            @if($social->facebook)-->
-    <!--            <a href="{{$social->facebook}}"><img src="{{asset('ledra_app/public/images/facebook-icon.png')}}" alt="facebook"></a>-->
+    <!--            <a href="{{$social->facebook}}"><img src="{{asset('images/facebook-icon.png')}}" alt="facebook"></a>-->
     <!--            @endif-->
     <!--            @if($social->instagram)-->
-    <!--            <a href="{{$social->instagram}}"><img src="{{asset('ledra_app/public/images/instagram-icon.png')}}" alt="instagram"></a>-->
+    <!--            <a href="{{$social->instagram}}"><img src="{{asset('images/instagram-icon.png')}}" alt="instagram"></a>-->
     <!--            @endif-->
     <!--            @if($social->twitter)-->
-    <!--            <a href="{{$social->twitter}}"><img src="{{asset('ledra_app/public/images/twitter-icon.png')}}" alt="twitter"></a>-->
+    <!--            <a href="{{$social->twitter}}"><img src="{{asset('images/twitter-icon.png')}}" alt="twitter"></a>-->
     <!--            @endif-->
     <!--            @if($social->whatsapp)-->
-    <!--            <a href="{{$social->whatsapp}}"><img src="{{asset('ledra_app/public/images/whatsapp-icon.png')}}" alt="whatsapp"></a>-->
+    <!--            <a href="{{$social->whatsapp}}"><img src="{{asset('images/whatsapp-icon.png')}}" alt="whatsapp"></a>-->
     <!--            @endif-->
     <!--            @if($social->linkedin)-->
-    <!--            <a href="{{$social->linkedin}}"><img src="{{asset('ledra_app/public/images/linkedin-icon.png')}}" alt="linkedin"></a>-->
+    <!--            <a href="{{$social->linkedin}}"><img src="{{asset('images/linkedin-icon.png')}}" alt="linkedin"></a>-->
     <!--            @endif-->
     <!--            @if($social->snapchat)-->
-    <!--            <a href="{{$social->snapchat}}"><img src="{{asset('ledra_app/public/images/snapchat-icon.png')}}" alt="snapchat"></a>-->
+    <!--            <a href="{{$social->snapchat}}"><img src="{{asset('images/snapchat-icon.png')}}" alt="snapchat"></a>-->
     <!--            @endif-->
     <!--        </div>-->
     <!--    </div>-->
     <!--</section>-->
 
     <!-- footer section -->
-    <img src="{{asset('ledra_app/public/images/footerWave.png')}}" alt="wave" class="img-footer">
+    <img src="{{asset('images/footerWave.png')}}" alt="wave" class="img-footer">
     <section id="footer">
 
         <div class="container">
             <div class="row">
                 <div class="col-12 footer-box mb-3">
-                    <img src="{{asset('ledra_app/public/images/logo.png')}}"  alt="logo"> <span><b>CONTACT US</b></span>
+                    <img src="{{asset('images/logo.png')}}"  alt="logo"> <span><b>CONTACT US</b></span>
                 </div>
                 <div class="col-md-6 footer-box">
                     <p ><i class="fa fa-map-marker"></i> {{$contact->address}}</p>
@@ -248,22 +248,22 @@
                             <p>FIND US ON SOCIAL MEDIA</p>
                             <div class="social-icons">
                                 @if($social->facebook)
-                                    <a href="{{$social->facebook}}"><img src="{{asset('ledra_app/public/images/facebook-icon.png')}}" alt="facebook"></a>
+                                    <a href="{{$social->facebook}}"><img src="{{asset('images/facebook-icon.png')}}" alt="facebook"></a>
                                 @endif
                                 @if($social->instagram)
-                                    <a href="{{$social->instagram}}"><img src="{{asset('ledra_app/public/images/instagram-icon.png')}}" alt="instagram"></a>
+                                    <a href="{{$social->instagram}}"><img src="{{asset('images/instagram-icon.png')}}" alt="instagram"></a>
                                 @endif
                                 @if($social->twitter)
-                                    <a href="{{$social->twitter}}"><img src="{{asset('ledra_app/public/images/twitter-icon.png')}}" alt="twitter"></a>
+                                    <a href="{{$social->twitter}}"><img src="{{asset('images/twitter-icon.png')}}" alt="twitter"></a>
                                 @endif
                                 @if($social->whatsapp)
-                                    <a href="{{$social->whatsapp}}"><img src="{{asset('ledra_app/public/images/whatsapp-icon.png')}}" alt="whatsapp"></a>
+                                    <a href="{{$social->whatsapp}}"><img src="{{asset('images/whatsapp-icon.png')}}" alt="whatsapp"></a>
                                 @endif
                                 @if($social->linkedin)
-                                    <a href="{{$social->linkedin}}"><img src="{{asset('ledra_app/public/images/linkedin-icon.png')}}" alt="linkedin"></a>
+                                    <a href="{{$social->linkedin}}"><img src="{{asset('images/linkedin-icon.png')}}" alt="linkedin"></a>
                                 @endif
                                 @if($social->snapchat)
-                                    <a href="{{$social->snapchat}}"><img src="{{asset('ledra_app/public/images/snapchat-icon.png')}}" alt="snapchat"></a>
+                                    <a href="{{$social->snapchat}}"><img src="{{asset('images/snapchat-icon.png')}}" alt="snapchat"></a>
                                 @endif
                             </div>
                         </div>
